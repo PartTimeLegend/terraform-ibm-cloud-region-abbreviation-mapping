@@ -35,7 +35,7 @@ output "region_abbreviation" {
 
 ```terraform
 module "region_abbreviation_mapping" {
-  source = "PartTimeLegend/region-abbreviation-mapping/ibm-cloud"
+  source = "PartTimeLegend/region-abbreviation-mapping/ibm"
 }
 
 locals {
@@ -56,7 +56,7 @@ output "normalized_region_abbreviation" {
 
 ```terraform
 module "region_abbreviation_mapping" {
-  source = "PartTimeLegend/region-abbreviation-mapping/ibm-cloud"
+  source = "PartTimeLegend/region-abbreviation-mapping/ibm"
 }
 
 locals {
