@@ -22,7 +22,7 @@ locals {
 }
 
 module "region_abbreviation_mapping" {
-  source  = "PartTimeLegend/region-abbreviation-mapping/ibm-cloud"
+  source  = "PartTimeLegend/region-abbreviation-mapping/ibm"
   version = "~> 1.0" # Replace with the latest version
 }
 
