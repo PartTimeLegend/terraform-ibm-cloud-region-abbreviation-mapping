@@ -1,6 +1,6 @@
 variable "ibm_cloud_region_abbr_map" {
   type        = map(string)
-  description = "Map of IBM Cloud region identifiers to short abbreviations for naming resources"
+  description = "Map of IBM Cloud region identifiers to short abbreviations for naming resources. This list reflects the current IBM Cloud multizone regions and excludes removed or legacy region IDs."
   default = {
     "au-syd"   = "syd"
     "br-sao"   = "sao"
