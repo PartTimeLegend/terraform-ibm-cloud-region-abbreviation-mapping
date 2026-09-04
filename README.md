@@ -4,6 +4,28 @@
 
 A simple module that provides mappings between IBM Cloud region identifiers and standardized abbreviations for consistent resource naming.
 
+This mapping is validated against the current IBM Cloud multizone region set and intentionally excludes legacy or retired region IDs.
+
+## Current Region Coverage
+
+The module currently covers the supported IBM Cloud regions below:
+
+- `au-syd`
+- `br-sao`
+- `ca-mon`
+- `ca-tor`
+- `eu-de`
+- `eu-es`
+- `eu-fr2`
+- `eu-gb`
+- `in-che`
+- `in-mum`
+- `jp-osa`
+- `jp-tok`
+- `kr-seo`
+- `us-east`
+- `us-south`
+
 ## Features
 
 - Mapping of IBM Cloud region identifiers to short abbreviations
