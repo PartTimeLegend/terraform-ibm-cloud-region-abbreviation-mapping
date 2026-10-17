@@ -4,7 +4,7 @@
 
 A simple module that provides mappings between IBM Cloud region identifiers and standardized abbreviations for consistent resource naming.
 
-This mapping is validated against the current IBM Cloud multizone region set and intentionally excludes legacy or retired region IDs.
+This mapping is validated against the current IBM Cloud multizone region set and intentionally excludes legacy or retired region IDs. It also keeps preview, government (gov), and Department of Defense (dod) environment aliases in scope so future maintenance adds these special deployment environments alongside the public regions.
 
 ## Current Region Coverage
 
@@ -14,15 +14,18 @@ The module currently covers the supported IBM Cloud regions below:
 - `br-sao`
 - `ca-mon`
 - `ca-tor`
+- `dod`
 - `eu-de`
 - `eu-es`
 - `eu-fr2`
 - `eu-gb`
+- `gov`
 - `in-che`
 - `in-mum`
 - `jp-osa`
 - `jp-tok`
 - `kr-seo`
+- `preview`
 - `us-east`
 - `us-south`
 
